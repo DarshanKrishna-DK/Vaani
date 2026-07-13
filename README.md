@@ -1,11 +1,11 @@
-# Vaani — Hands-free banking for India's next billion
+# Vaani - Hands-free banking for India's next billion (Under Development)
 
 An MVP of **Vaani**, a hands-free, agentic banking companion built for the
 **IDBI Innovate 2026** hackathon (Conversational Assistance track).
 
-Vaani lets a customer complete banking tasks by talking — check balance, send
+Vaani lets a customer complete banking tasks by talking - check balance, send
 money, understand jargon, review upcoming dues, see a financial health score,
-and file disputes — in the language they actually speak, without touching a
+and file disputes - in the language they actually speak, without touching a
 screen or navigating an app.
 
 This MVP implements the six-layer agent from the build plan on **free tools
@@ -75,7 +75,7 @@ npm start                  # runs on http://localhost:5050
 ```
 
 The backend runs **with zero configuration**. Without a `GROQ_API_KEY` it uses
-a deterministic fallback planner — all tools, data, scoring and actions still
+a deterministic fallback planner - all tools, data, scoring and actions still
 work; only the natural-language phrasing is simpler.
 
 To enable the live LLM agent, get a free key at
@@ -100,14 +100,14 @@ The dev server proxies `/api` to the backend automatically. Open
 
 ## Using the app
 
-- **Home** — the landing page and product thesis.
-- **Talk to Vaani** — the core hands-free experience. Tap the orb and speak, or
+- **Home** - the landing page and product thesis.
+- **Talk to Vaani** - the core hands-free experience. Tap the orb and speak, or
   type. Try: *"Kitne paise bache hain?"*, *"SIP kya hota hai?"*,
   *"Suresh ko 500 rupaye bhejo"*, *"Konse bills due hain?"*
-- **Dashboard** — the visual companion: proactive nudges, balance, health
+- **Dashboard** - the visual companion: proactive nudges, balance, health
   score, spend breakdown, upcoming dues, recent transactions, and what Vaani
   remembers.
-- **How it works** — the architecture and the real-vs-mocked breakdown.
+- **How it works** - the architecture and the real-vs-mocked breakdown.
 
 Use the **language switcher** (Hinglish / Hindi / English / Tamil / Marathi)
 and the **user switcher** (two demo customers: Ramesh, a truck driver; Lakshmi,
